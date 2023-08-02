@@ -12,7 +12,7 @@ With this repository, you can have most of the libraries needed to work with Dja
 
 4. Finally you run this to change the mode of the bash file: `chmod +x setup.sh`
 
-5. Run this command and give your `YOUR PROJECT NAME`. 
+5. Run `setup.sh` and give your `YOUR PROJECT NAME`. 
 
 6. Done :)
 
