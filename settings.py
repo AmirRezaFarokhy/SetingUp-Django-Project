@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'drf_spectacular',
     'rest_framework',
     'celery',
-    'kombu.transport.django',
     'channels',
     "corsheaders",
 ]
@@ -77,7 +76,7 @@ MIDDLEWARE = [
     "django.middleware.common.CommonMiddleware",
 ]
 
-ROOT_URLCONF = 'Bycile.urls'
+ROOT_URLCONF = 'YOUR_PROJECT_NAME.urls'
 
 TEMPLATES = [
     {
@@ -95,7 +94,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Bycile.wsgi.application'
+WSGI_APPLICATION = 'YOUR_PROJECT_NAME.wsgi.application'
 
 
 # Database
