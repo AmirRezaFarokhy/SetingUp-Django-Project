@@ -16,9 +16,9 @@ echo Start With celery
 sudo apt-get install celery
 echo celery Installed, You must Setup celery.py for your task name 
 
-echo Start With celery
+echo Start With postgreSQL
 sudo apt install postgresql postgresql-contrib
-echo celery Installed, You must Setup setting.py for your db name, passwod, ...
+echo postgreSQL Installed, You must Setup setting.py for your db name, passwod, ...
 
 sudo apt-get update
 
